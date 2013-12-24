@@ -1,0 +1,23 @@
+{
+    "name": "johntaa/captcha",
+    "description": "",
+    "authors": [
+        {
+            "name": "johntaa",
+            "email": "fccffccffccf@yahoo.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "illuminate/support": "4.1.*"
+    },
+    "autoload": {
+        "classmap": [
+            "src/migrations"
+        ],
+        "psr-0": {
+            "Johntaa\\Captcha\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
