@@ -19,7 +19,7 @@ project's `composer.json`.
 ```json
 {
     "require": {
-        "laravel/framework": "4.*",
+        "laravel/framework": "4.1.*",
         "Johntaa/laravel-captcha": "dev-master"
     },
     "minimum-stability": "dev"
