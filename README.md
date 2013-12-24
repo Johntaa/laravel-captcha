@@ -55,7 +55,7 @@ Find the `aliases` key in `app/config/app.php`.
 
 To use your own settings, publish config.
 
-```$ php artisan config:publish mews/captcha```
+```$ php artisan config:publish johntaa/captcha```
 
 ## Example Usage
 
@@ -89,15 +89,4 @@ To use your own settings, publish config.
 
     });
 ```
-
-^_^
-
-## Links
-
-* [L4 Captcha on Github](https://github.com/mewebstudio/captcha)
-* [L4 Captcha on Packagist](https://packagist.org/packages/mews/captcha)
-* [For L3 on Github](https://github.com/mewebstudio/mecaptcha)
-* [License](http://www.opensource.org/licenses/mit-license.php)
-* [Laravel website](http://laravel.com)
-* [Laravel Turkiye website](http://www.laravel.gen.tr)
-* [MeWebStudio website](http://www.mewebstudio.com)
+ 
