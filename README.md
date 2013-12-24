@@ -1,7 +1,7 @@
 # Captcha for Laravel 4.1
 It is just a copy of https://github.com/mewebstudio/captcha but maintained to serve Laravel 4.1
 
-A simple [Laravel 4.1](http://laravel.com/) service provider for including the [Captcha for Laravel 4.1](https://github.com/mewebstudio/captcha).
+A simple [Laravel 4.1](http://laravel.com/) service provider for including the [Captcha for Laravel 4.1](https://github.com/johntaa/captcha).
 
 ## Preview
 ![Preview](http://i.imgur.com/kfXYhlk.jpg?1)
