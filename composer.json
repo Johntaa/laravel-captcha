@@ -1,6 +1,7 @@
 {
     "name": "johntaa/captcha",
     "description": "",
+    "license":"MIT",
     "authors": [
         {
             "name": "johntaa",
