@@ -1,6 +1,6 @@
 <?php namespace Johntaa\Captcha;
- 
-use Config, Str, Session, Hash, URL;
+
+use Config, Str, Session, Hash, URL, Response;
 
 /**
  *
@@ -56,10 +56,10 @@ class Captcha {
      * Generates a captcha image, writing it to the output
      * It is used internally by this bundle when pointing to "/captcha" (see [vendor]\routes.php)
      * Typically, you won't use this function, but use the above img() function instead
-     *
+     * @param null $id
      * @access	public
-     * @return	img
-     */
+     * @return mixed
+    */
     public static function create($id = null)
     {
 
@@ -100,13 +100,16 @@ class Captcha {
         }
         imagealphablending($new_image, false);
 
-        header('Cache-Control: no-cache, no-store, max-age=0, must-revalidate');
-        header('Pragma: no-cache');
-        header("Content-type: image/jpg");
-        header('Content-Disposition: inline; filename=' . static::$id . '.jpg');
+        $response = Response::make();
+        $response->header('Cache-Control', 'no-cache, no-store, max-age=0, must-revalidate');
+        $response->header('Pragma', 'no-cache');
+        $response->header('Content-type', 'image/jpeg');
+        $response->header('Content-Disposition', 'inline; filename=' . static::$id . '.jpg');
+
         imagejpeg($new_image, null, 80);
         imagedestroy($new_image);
 
+        return $response;
     }
 
     /**
@@ -175,7 +178,7 @@ class Captcha {
 
     /**
      * Checks if the supplied captcha test value matches the stored one
-     * 
+     *
      * @param	string	$value
      * @access	public
      * @return	bool
@@ -204,6 +207,6 @@ class Captcha {
     }
 
 }
- 
+
 
 ?>
