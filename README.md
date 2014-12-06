@@ -10,7 +10,7 @@ A simple [Laravel framework](http://laravel.com/) service provider for including
 
 ## Installation
 
-## Note: This Script Requires GD extension to be installed 
+### Note: This Script Requires GD extension to be installed 
 
 The Captcha Service Provider can be installed via [Composer](http://getcomposer.org) by requiring the
 `mews/captcha` package and setting the `minimum-stability` to `dev` (required for Laravel 4.1) in your
