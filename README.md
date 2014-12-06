@@ -1,7 +1,7 @@
-# Captcha for Laravel 4.1
-It is just a copy of https://github.com/mewebstudio/captcha but maintained to serve Laravel 4.1
+# Captcha for Laravel 4.*  
+It is just a copy of https://github.com/mewebstudio/captcha but maintained to serve Laravel framework
 
-A simple [Laravel 4.1](http://laravel.com/) service provider for including the [Captcha for Laravel 4.1](https://github.com/johntaa/captcha).
+A simple [Laravel framework](http://laravel.com/) service provider for including the [Captcha for Laravel framework](https://github.com/johntaa/captcha).
 
 ## Preview
 ![Preview](http://i.imgur.com/kfXYhlk.jpg?1)
@@ -10,7 +10,7 @@ A simple [Laravel 4.1](http://laravel.com/) service provider for including the [
 
 ## Installation
 
-
+## Note: This Script Requires GD extension to be installed 
 
 The Captcha Service Provider can be installed via [Composer](http://getcomposer.org) by requiring the
 `mews/captcha` package and setting the `minimum-stability` to `dev` (required for Laravel 4.1) in your
