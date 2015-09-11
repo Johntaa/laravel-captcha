@@ -1,4 +1,5 @@
 # Captcha for Laravel 4.*  
+## For Laravel 5 change to branch masterl5
 It is just a copy of https://github.com/mewebstudio/captcha but maintained to serve Laravel framework
 
 A simple [Laravel framework](http://laravel.com/) service provider for including the [Captcha for Laravel framework](https://github.com/johntaa/captcha).
