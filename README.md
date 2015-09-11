@@ -17,11 +17,10 @@ project's `composer.json`.
 
 ```json
 {
-    "require": {
-        "laravel/framework": "4.*",
-        "johntaa/captcha": "dev-master" 
+    "require": { 
+        "johntaa/captcha": "dev-masterl5" 
     },
-    "minimum-stability": "dev"
+  
 }
 ```
 
