@@ -1,0 +1,28 @@
+{
+    "name": "johntaa/captcha",
+    "description": "Laravel 5 Captcha",
+     
+    "homepage": "https://github.com/johntaa/laravel-captcha5",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": ":johntaa",
+            "email": ":fccffccffccf@yahoo.com" 
+        }
+    ],
+    "require": {
+        "illuminate/support": "~5.1",
+        "php" : ">=5.4.0"
+    }, 
+    "autoload": {
+        "psr-4": {
+            "Johntaa\\Captcha\\": "src"
+        }
+    },
+   
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    }
+}
