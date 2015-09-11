@@ -1,6 +1,6 @@
 {
     "name": "johntaa/captcha",
-    "description": "Laravel 5 Captcha",
+    "description": "Captcha for Laravel PHP Framework ",
      
     "homepage": "https://github.com/johntaa/laravel-captcha",
     "license": "MIT",
