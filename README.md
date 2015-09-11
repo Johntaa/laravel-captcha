@@ -1,5 +1,5 @@
 # Captcha for Laravel 5.*   
-### ## For Laravel 4.* change to branch master 
+### For Laravel 4.* change to branch master 
 A simple [Laravel framework](http://laravel.com/) service provider for including the [Captcha for Laravel framework](https://github.com/johntaa/captcha).
 
 ## Preview
